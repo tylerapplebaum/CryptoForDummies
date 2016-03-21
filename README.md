@@ -4,15 +4,15 @@
 
 ####1. The Basics
 
-     1.1 Symmetric vs. Asymmetric Encryption
+  1.1 Symmetric vs. Asymmetric Encryption
      
-     1.2 DH Exchange
+  1.2 DH Exchange
      
-     1.3 Stream Ciphers vs. Block Ciphers
+  1.3 Stream Ciphers vs. Block Ciphers
      
-     1.4 PKI Certificates
+  1.4 PKI Certificates
      
-     1.5 Signature vs. Encryption
+  1.5 Signature vs. Encryption
 
 ####2. Anatomy of a cipher suite
 
