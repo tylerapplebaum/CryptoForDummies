@@ -27,7 +27,7 @@
 7. References
 ***
 ####1. The Basics
-The purpose of this document is to give a somewhat in-depth explanation of SSL/TLS and the encryption and math backing it. The math will stay at around a high school level, mostly because I'm not capable of explaining it any further.
+The purpose of this document is to give a somewhat in-depth explanation of SSL/TLS and the encryption and math backing it. The math will stay at around a high school level, mostly because I'm not capable of explaining it any further. :laughing:
 
   #####1.1 Symmetric vs. Asymmetric Encryption
   Symmetric encryption, or secret key encryption, uses the same key for both encrypting and decrypting.
