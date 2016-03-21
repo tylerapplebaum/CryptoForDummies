@@ -38,5 +38,5 @@ The purpose of this document is to give a somewhat in-depth explanation of SSL/T
 
   Both symmetric and asymmetric cryptography are used during a TLS session. Asymmetric cryptography is used to set up the key exchange process, so that both parties can share a symmetric key for fast encryption and decryption of data.
 
-  #####1.2 Diffie-Hellman-Merkle Exchnage
+  #####1.2 Diffie-Hellman-Merkle Exchange
   Tomes have been written on this fundemental part of cryptography. I won't attempt to replicate that depth of knowledge here.  
