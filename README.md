@@ -34,7 +34,7 @@ The purpose of this document is to give a somewhat in-depth explanation of SSL/T
   
   Asymmetric encryption, or public key encryption, uses a key pair. The public key is used for encryption, while the private key is used for decryption. This operation is slower and more resource intensive than symmetric encryption. However, it can be used to securely exchange data in the presence of a third party. 
 
-Both symmetric and asymmetric encryption are used during a TLS session. Asymmetric encryption is used to set up the key exchange process, so that both parties can share a symmetric key for fast encryption and decryption of data.
+  Both symmetric and asymmetric encryption are used during a TLS session. Asymmetric encryption is used to set up the key exchange process, so that both parties can share a symmetric key for fast encryption and decryption of data.
 
   #####1.2 Diffie-Hellman Exchnage
   ...Text
