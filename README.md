@@ -26,7 +26,7 @@
 
 7. References
 ***
-1. The Basics
+####1. The Basics
 The purpose of this document is to give a somewhat in-depth explanation of SSL/TLS and the encryption and math backing it. The math will stay at around a high school level, mostly because I'm not capable of explaining it any further.
 
   #####1.1 Symmetric vs. Asymmetric Encryption
