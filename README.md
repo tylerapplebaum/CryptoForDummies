@@ -6,7 +6,7 @@
 
   1.1 Symmetric-key vs. Asymmetric-key Cryptography
      
-  1.2 Diffie-Hellman-Merkle Exchnage
+  1.2 Diffie-Hellman-Merkle Exchange
      
   1.3 Stream Ciphers vs. Block Ciphers
   
