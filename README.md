@@ -14,7 +14,7 @@
      
   1.5 Signature vs. Encryption
 
-2. Anatomy of a cipher suite
+2. Anatomy of A Cipher Suite
 
 3. TLS Handshake Breakdown
 
@@ -30,3 +30,6 @@
 The purpose of this document is to give a somewhat in-depth explanation of SSL/TLS and the encryption and math backing it. The math will stay at around a high school level, mostly because I'm not capable of explaining it any further.
 
   #####1.1 Symmetric vs. Asymmetric Encryption
+  Symmetric encryption, or secret key encryption, uses the same key for both encrypting and decrypting.
+  
+  Asymmetric encryption, or public key encryption, uses a key pair. The public key is used for encryption, while the private key is used for decryption.
