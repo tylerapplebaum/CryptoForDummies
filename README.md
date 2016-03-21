@@ -2,7 +2,7 @@
 
 ### Table of Contents
 
-####1. The Basics
+1. The Basics
      1.1 Symmetric vs. Asymmetric Encryption
      1.2 DH Exchange
      1.3 Stream Ciphers vs. Block Ciphers
