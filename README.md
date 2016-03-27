@@ -30,14 +30,14 @@
 ####1. The Basics
 The purpose of this document is to give a somewhat in-depth explanation of SSL/TLS and the encryption and math backing it. The math will stay at around a high school level, mostly because I'm not capable of explaining it any further. :laughing:
 
-  #####1.1 Symmetric Key vs. Asymmetric Key Cryptography
+  **1.1 Symmetric Key vs. Asymmetric Key Cryptography**
   Symmetric cryptography, or secret key cryptography, uses the same key for both encryption and decryption. Symmetric key cryptography is very fast, but it only works if both parties have the same key.
 
   Asymmetric cryptography, or public key encryption, uses a key pair. The public key is used for encryption, while the private key is used for decryption. This operation is slower and more resource intensive than symmetric key cryptography. However, it can be used to securely exchange data in the presence of a third party.
 
   Both symmetric and asymmetric cryptography are used during a TLS session. Asymmetric cryptography is used to set up the key exchange process, so that both parties can share a symmetric key for fast encryption and decryption of data.
 
-  #####1.2 Diffie-Hellman-Merkle Exchange
+#####1.2 Diffie-Hellman-Merkle Exchange
   Tomes have been written on this fundemental part of cryptography. I won't attempt to replicate that depth of knowledge here. Alice, Bob, Eve, yada, yada, yada.
 
   This is an example of asymmetric cryptography. Public keys are used, while private keys are kept locally and never shared.
@@ -45,7 +45,7 @@ The purpose of this document is to give a somewhat in-depth explanation of SSL/T
   #####1.3 Stream Ciphers vs. Block Ciphers
 
   #####1.4 PKI Certificates
-  Ok, that's a bit of a misnomer. A public key infrastructure certificate authority issues X.509 certificates. The digital certificate chain of trust is based on trust anchors, or root certificates. Every device and browser relies upon these pre-installed root certificates. For example, Windows 10 ships with around 50 root certificates issued by various organizations. These certificates are included with Windows because the issuing organizations passed Microsoft's criteria outlined in the Microsoft Trusted Root Certificate Program. 
+  Ok, that's a bit of a misnomer. A public key infrastructure certificate authority issues X.509 certificates. The digital certificate chain of trust is based on trust anchors, or root certificates. Every device and browser relies upon these pre-installed root certificates. For example, Windows 10 ships with around 50 root certificates issued by various organizations. These certificates are included with Windows because the issuing organizations passed Microsoft's criteria outlined in the Microsoft Trusted Root Certificate Program.
 
   #####1.5 Signature vs. Encryption
 
