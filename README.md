@@ -46,6 +46,19 @@ The purpose of this document is to give a somewhat in-depth explanation of SSL/T
   #####1.5 Signature vs. Encryption
 
 ####2. Anatomy of A Cipher Suite
+Let's use this common cipher suite below as our example.
+
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+
+Here it is in smaller chunks:
+
+```
+* TLS
+* ECDHE_RSA
+* AES_128
+* GCM
+* SHA256
+```
 
 ####3. TLS Handshake Breakdown
 
