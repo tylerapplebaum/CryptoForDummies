@@ -53,18 +53,24 @@ TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 Here it is in smaller chunks:
 
 1) TLS
-  Possible values: TLS, SSL
-  Determines which protocol to use
+
+  Determines which protocol to use (TLS or SSL)
 
 2) ECDHE_RSA
 
+  Elliptic Curve Diffie-Hellman Ephemeral signed with RSA
+
 3) AES_128
+
+  Advanced Encryption Standard with a 128-bit key
 
 4) GCM
 
+  Galois Counter Mode
+
 5) SHA256
 
-
+  Secure Hash Algorithm with a 256-bit hash
 
 ####3. TLS Handshake Breakdown
 
@@ -77,17 +83,29 @@ Here it is in smaller chunks:
 ####7. References
 
 ####8. Terms
+
 ```TLS - Transport Layer Security```
+
 ```SSL - Secure Socket Layer```
+
 ```SHA - Secure Hash Algorithm```
+
 ```AES - Advanced Encryption Standard```
+
 ```GCM - Galois Counter Mode```
+
 ```PKI - Public Key Infrastructure```
+
 ```ECC - Elliptic Curve Cryptography```
+
 ```DH - Diffie-Hellman-Merkle```
+
 ```MAC - Message Authentication Code```
-```SEC - Standards for Efficient Cryptography``` 
+
+```SEC - Standards for Efficient Cryptography```
+
 ```NIST - National Institute of Standards and Technology```
 
+```RSA - Rivest-Shamir-Adleman cryptosystem```
 
 ***
