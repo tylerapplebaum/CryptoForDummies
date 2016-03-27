@@ -26,6 +26,7 @@
 
 7. References
 ***
+
 ####1. The Basics
 The purpose of this document is to give a somewhat in-depth explanation of SSL/TLS and the encryption and math backing it. The math will stay at around a high school level, mostly because I'm not capable of explaining it any further. :laughing:
 
@@ -37,11 +38,14 @@ The purpose of this document is to give a somewhat in-depth explanation of SSL/T
   Both symmetric and asymmetric cryptography are used during a TLS session. Asymmetric cryptography is used to set up the key exchange process, so that both parties can share a symmetric key for fast encryption and decryption of data.
 
   #####1.2 Diffie-Hellman-Merkle Exchange
-  Tomes have been written on this fundemental part of cryptography. I won't attempt to replicate that depth of knowledge here.  
+  Tomes have been written on this fundemental part of cryptography. I won't attempt to replicate that depth of knowledge here. Alice, Bob, Eve, yada, yada, yada.
+
+  This is an example of asymmetric cryptography. Public keys are used, while private keys are kept locally and never shared.
 
   #####1.3 Stream Ciphers vs. Block Ciphers
 
   #####1.4 PKI Certificates
+  Ok, that's a bit of a misnomer. A public key infrastructure certificate authority issues X.509 certificates. The digital certificate chain of trust is based on trust anchors, or root certificates. Every device and browser relies upon these pre-installed root certificates. For example, Windows 10 ships with around 50 root certificates issued by various organizations. These certificates are included with Windows because the issuing organizations passed Microsoft's criteria outlined in the Microsoft Trusted Root Certificate Program. 
 
   #####1.5 Signature vs. Encryption
 
@@ -59,6 +63,8 @@ Here it is in smaller chunks:
 2) ECDHE_RSA
 
   Elliptic Curve Diffie-Hellman Ephemeral signed with RSA
+
+  This is the asymmetric crypto which is set up to use perfect forward secrecy.
 
 3) AES_128
 
@@ -81,6 +87,8 @@ Here it is in smaller chunks:
 ####6. Elliptic Curve Cryptography
 
 ####7. References
+
+[Microsoft Root Certificate Program](https://technet.microsoft.com/en-us/library/cc751157.aspx)
 
 ####8. Terms
 
