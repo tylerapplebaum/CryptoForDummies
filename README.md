@@ -86,6 +86,10 @@ Here it is in smaller chunks:
 
 ####6. Elliptic Curve Cryptography
 
+[Weierstrass Basic Function](tylerapplebaum.github.io/cryptofordummies/weierstrass_basic_function.png)
+
+[Weierstrass Basic Function Plot](tylerapplebaum.github.io/cryptofordummies/weierstrass_basic_function_plot.png)
+
 ####7. References
 
 [Microsoft Root Certificate Program](https://technet.microsoft.com/en-us/library/cc751157.aspx)
