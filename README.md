@@ -86,9 +86,9 @@ Here it is in smaller chunks:
 
 ####6. Elliptic Curve Cryptography
 
-[Weierstrass Basic Function](https://tylerapplebaum.github.io/cryptofordummies/weierstrass_basic_function.png)
+![Weierstrass Basic Function](https://tylerapplebaum.github.io/cryptofordummies/weierstrass_basic_function.png)
 
-[Weierstrass Basic Function Plot](https://tylerapplebaum.github.io/cryptofordummies/weierstrass_basic_function_plot.png)
+![Weierstrass Basic Function Plot](https://tylerapplebaum.github.io/cryptofordummies/weierstrass_basic_function_plot.png)
 
 ####7. References
 
