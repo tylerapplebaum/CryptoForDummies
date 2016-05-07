@@ -45,7 +45,11 @@ The purpose of this document is to give a somewhat in-depth explanation of SSL/T
 #####1.3 Stream Ciphers vs. Block Ciphers
 
 #####1.4 PKI Certificates
-  Ok, that's a bit of a misnomer. A public key infrastructure certificate authority issues X.509 certificates. The digital certificate chain of trust is based on trust anchors, or root certificates. Every device and browser relies upon these pre-installed root certificates. For example, Windows 10 ships with around 50 root certificates issued by various organizations. These certificates are included with Windows because the issuing organizations passed Microsoft's criteria outlined in the Microsoft Trusted Root Certificate Program.
+  Ok, that's a bit of a misnomer. A public key infrastructure certificate authority issues X.509 certificates. The digital certificate chain of trust is based on trust anchors, or root certificates. Every device and browser relies upon these pre-installed root certificates. A certificate issued and signed by a certificate authority you already trust will be inherently trusted by you. This works all the way down the chain.
+
+  Windows 10 ships with around 50 root certificates issued by various organizations. These certificates are included with Windows because the issuing organizations passed Microsoft's criteria outlined in the Microsoft Trusted Root Certificate Program.
+
+  Microsoft Edge, Internet Explorer and Google Chrome all read from the built-in Microsoft certificate store. Mozilla Firefox, Opera and Java (JRE) use their own trusted certificate store. These certificate stores have the ability to be added to locally. When requesting a certificate from a public certificate authority, it's important to determine the root certificate's prevalence among your target platforms.
 
 #####1.5 Signature vs. Encryption
 
