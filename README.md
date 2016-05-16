@@ -45,7 +45,7 @@ The purpose of this document is to give a somewhat in-depth explanation of SSL/T
 #####1.3 Stream Ciphers vs. Block Ciphers
 
 #####1.4 PKI Certificates
-  Ok, that's a bit of a misnomer. A public key infrastructure certificate authority issues X.509 certificates. The digital certificate chain of trust is based on trust anchors, or root certificates. Every device and browser relies upon these pre-installed root certificates. A certificate issued and signed by a certificate authority you already trust will be inherently trusted by you. This works all the way down the chain.
+  A public key infrastructure certificate authority issues X.509 certificates. The digital certificate chain of trust is based on trust anchors, or root certificates. Every device and browser relies upon these pre-installed root certificates. A certificate issued and signed by a certificate authority you already trust will be inherently trusted by you. This works all the way down the chain.
 
   Windows 10 ships with around 50 root certificates issued by various organizations. These certificates are included with Windows because the issuing organizations passed Microsoft's criteria outlined in the Microsoft Trusted Root Certificate Program.
 
@@ -94,6 +94,22 @@ Here it is in smaller chunks:
 
 ![Weierstrass Basic Function Plot](https://tylerapplebaum.github.io/cryptofordummies/weierstrass_basic_function_plot.png)
 
+A curve is defined using domain parameters.
+
+P = The field that the curve is defined over
+A,B = Values defining the curve
+G = Generator Point - A set of coordinates, made public
+n = Prime order of G - smallest prime n*G = Elliptic Identity
+h = Cofactor (ideally 1)
+
+Alice and Bob choose a private value, d, where 1<= d <= n-1
+Alice public = P
+Alice private = d
+Bob public = Q
+Bob private = e
+
+P = d * G = (XG,YG)
+Q = e * G = (XG,YG)
 ####7. References
 
 [Microsoft Root Certificate Program](https://technet.microsoft.com/en-us/library/cc751157.aspx)
